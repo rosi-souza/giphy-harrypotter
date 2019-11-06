@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+main {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  background: url('ceu.jpeg');
+}
+.image {
+  width: 60px;
+  position: absolute;
+}
+.header {
+  padding-top: 30px;
+}
+.wand {
+  width: 40px;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  display: inline;
+  padding-left: 60px;
+}
+.description {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+.content {
+  margin-top: 50px;
+}
+.gif {
+  width: 100%;
+}
+
+.transition-rigth {
+  animation: rigth 1s forwards;
+}
+@keyframes rigth {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-800px);
+  }
+}
+
+.transition-left {
+  animation: left 1s forwards;
+}
+@keyframes left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(800px);
+  }
+}
